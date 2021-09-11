@@ -22,16 +22,16 @@ Install dependencies
   npm install
 ```
 
-Symlink the project to the global npm folder
-
-```bash
-  npm link
-```
-
 Run the project
 
 ```bash
   npm run dev
+```
+
+Symlink the project to the global npm folder
+
+```bash
+  npm link
 ```
 
 Run the cli tool
