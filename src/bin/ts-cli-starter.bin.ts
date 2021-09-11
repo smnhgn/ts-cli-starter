@@ -4,11 +4,7 @@ import { Command } from "commander";
 const program = new Command();
 
 program
-  .arguments("<file>")
-  .option("-o --output <string>", "Specifies an output path", ".")
-  .action(function (file: string) {
-    const options = program.opts();
-    const { output } = options;
-    console.log({ file, output });
+  .action(() => {
+    console.log("ts-cli-starter works!");
   })
   .parse(process.argv);
